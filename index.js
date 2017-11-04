@@ -1,6 +1,7 @@
 const R = require('ramda');
 
 function generateName() {
+  // Names retrieved from http://listofrandomnames.com/
   const firstNames = [
     'Minh',
     'Zachariah',
