@@ -1,6 +1,6 @@
 {
   "name": "basket-simulation-player",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
   "author": "Jeremy Fourna",
   "license": "ISC",
   "dependencies": {
+    "basket-simulation-utils": "0.0.2",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
