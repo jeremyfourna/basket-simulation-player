@@ -2,6 +2,7 @@ const R = require('ramda');
 
 function generateName() {
   // Names retrieved from http://listofrandomnames.com/
+  // Remove duplicates via https://www.textfixer.com/tools/remove-duplicate-lines.php
   const firstNames = [
     'Minh',
     'Zachariah',
@@ -20,7 +21,6 @@ function generateName() {
     'Bruno',
     'Hershel',
     'Elvis',
-    'Hank',
     'Bill',
     'Claudio',
     'Josh',
