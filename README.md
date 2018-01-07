@@ -12,7 +12,6 @@
 const { generatePlayer } = require('basket-simulation-player');
 
 const randomPlayer = generatePlayer();
-
 ```
 
 When `generatePlayer` is called, it returns an object like this:
