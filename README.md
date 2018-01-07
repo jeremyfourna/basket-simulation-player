@@ -18,7 +18,7 @@ When `generatePlayer` is called, it returns an object like this:
 
 ```js
 {
-	id: 406452265763654100,
+  id: 406452265763654100,
   name: 'Lacy Pittsley',
   height: 187,
   charact: {
