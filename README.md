@@ -22,9 +22,9 @@ When `generatePlayer` is called, it returns an object like this:
   name: 'Lacy Pittsley',
   height: 187,
   charact: {
-  	ft: 64,
-  	twoPts: 86,
-  	threePts: 34
+    ft: 64,
+    twoPts: 86,
+    threePts: 34
   }
 }
 ```
