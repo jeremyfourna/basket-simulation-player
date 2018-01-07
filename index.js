@@ -1,6 +1,7 @@
 const R = require('ramda');
 const { generateId, generateName } = require('basket-simulation-utils');
 
+// playerName :: a -> string
 function playerName() {
   // Names retrieved from http://listofrandomnames.com/
   // Remove duplicates via https://www.textfixer.com/tools/remove-duplicate-lines.php
@@ -212,16 +213,18 @@ function playerName() {
   return generateName([firstNames, lastNames]);
 }
 
+// range :: (number, number) -> number
+function range(min, max) {
+  return Math.floor(R.add(R.multiply(Math.random(), R.subtract(max, min)), min));
+}
 
+// charact :: number -> number
+function charact(min) {
+  return range(100, min);
+}
+
+// generatePlayer :: a -> object
 function generatePlayer() {
-  function range(min, max) {
-    return Math.floor(R.add(R.multiply(Math.random(), R.subtract(max, min)), min));
-  }
-
-  function charact(min) {
-    return range(100, min);
-  }
-
   return {
     id: generateId(),
     name: playerName(),

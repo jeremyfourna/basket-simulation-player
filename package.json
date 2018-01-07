@@ -1,16 +1,16 @@
 {
   "name": "basket-simulation-player",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.3",
+  "description": "Allow you to generate a basket-ball player",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha",
     "start": "node index.js"
   },
-  "author": "Jeremy Fourna",
-  "license": "ISC",
+  "author": "Jeremy Fourna <jeremyfourna@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "basket-simulation-utils": "0.0.2",
+    "basket-simulation-utils": "0.0.3",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
