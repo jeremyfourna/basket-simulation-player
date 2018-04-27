@@ -1,6 +1,6 @@
 {
   "name": "basket-simulation-player",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Allow you to generate a basket-ball player",
   "main": "index.js",
   "scripts": {
@@ -10,12 +10,11 @@
   "author": "Jeremy Fourna <jeremyfourna@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "basket-simulation-utils": "0.0.3",
+    "basket-simulation-utils": "0.0.6",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "eslint": "^4.10.0",
     "mocha": "^4.0.1",
     "nyc": "^11.3.0"
   }

@@ -1,5 +1,14 @@
-const R = require('ramda');
-const { generateId, generateName } = require('basket-simulation-utils');
+/* jshint esversion: 6 */
+
+const {
+  add,
+  multiply,
+  subtract,
+} = require('ramda');
+const {
+  generateId,
+  generateName
+} = require('basket-simulation-utils');
 
 // playerName :: a -> string
 function playerName() {
@@ -215,7 +224,15 @@ function playerName() {
 
 // range :: (number, number) -> number
 function range(min, max) {
-  return Math.floor(R.add(R.multiply(Math.random(), R.subtract(max, min)), min));
+  return Math.floor(
+    add(
+      multiply(
+        Math.random(),
+        subtract(max, min)
+      ),
+      min
+    )
+  );
 }
 
 // charact :: number -> number
